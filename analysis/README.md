@@ -15,7 +15,8 @@
 
 ## Progress Log
 - [x] Repository setup and fork
-- [ ] Dataset download
+- [x] Dataset download (Step 1 & Step 2)
+- [x] File Distribution Check (Step 3)
 - [ ] Descriptive statistics
 - [ ] Exploratory analysis
 - [ ] Project ideas for class discussion
