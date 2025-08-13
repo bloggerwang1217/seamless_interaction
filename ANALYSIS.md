@@ -15,8 +15,6 @@ seamless_interaction/              # Project root
 ├── notebooks/                    # ✅ Interactive analysis notebooks
 │   └── download-subset-check.ipynb
 ├── analysis/                     # ✅ Analysis code & outputs
-│   ├── scripts/                  # Python analysis scripts
-│   │   └── dataloader.py
 │   └── results/                  # Generated outputs (figures, reports)
 ├── data/                         # ✅ Centralized data storage
 │   ├── sample_set/              # Sample data (~1GB)
