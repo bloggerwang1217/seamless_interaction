@@ -2,7 +2,7 @@
 analysis/notebooks/seamless_interaction_fs.log
 
 # Local dataset storage
-analysis/dataset/*
+data/*
 
 # Build Artifacts
 build/
