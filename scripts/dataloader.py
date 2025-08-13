@@ -1,12 +1,21 @@
 import os
+import sys
+from pathlib import Path
 from seamless_interaction.fs import SeamlessInteractionFS
 import json
 import numpy as np
+
+# Add the project root to sys.path to import config
+sys.path.append(str(Path(__file__).parent.parent))
+from config import SESSION_CONFIG
 import cv2
 import librosa
 
 class InteractionDataLoader:
     def __init__(self, config=None):
+        # Use SESSION_CONFIG from config.py if no config is provided
+        if config is None:
+            config = SESSION_CONFIG
         self.fs = SeamlessInteractionFS(config=config)
 
     def get_paths(self, file_id):
