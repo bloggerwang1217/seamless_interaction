@@ -48,4 +48,6 @@ __pycache__/
 notes/
 
 # merged csvs
-assets/merged_file.csv
+assets/seamless_interaction.csv
+assets/annotation_partial.csv
+assets/1p_3p_json.csv
